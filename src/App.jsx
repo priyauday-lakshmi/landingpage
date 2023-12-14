@@ -10,6 +10,7 @@ import img3 from "./images/testimonials-3.jpg"
 import img4 from "./images/bg-showcase-1.jpg"
 import img5 from "./images/bg-showcase-2.jpg"
 import img6 from "./images/bg-showcase-3.jpg"
+import img7 from "./images/bg-masthead.jpg"
 
 
 
@@ -42,7 +43,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Masthead heading="Generate more leads with a professional landing page!" margin={4}/>
+    <Masthead heading="Generate more leads with a professional landing page!" margin={4}  imageUrl={img7}/>
     <section className="features-icons bg-light text-center">
             <div className="container">
                 < div className="row">
@@ -71,7 +72,7 @@ function App() {
 
             </div>
             </section>
-            <Masthead heading="Ready to get started? Sign up now!" margin={5} isFooterSection={true}/>
+            <Masthead heading="Ready to get started? Sign up now!" margin={5} isFooterSection={true} imageUrl={img7}/>
             <Footer/>
                 
     

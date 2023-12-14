@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Masthead({heading,margin,isFooterSection}) {
+function Masthead({heading,margin,isFooterSection,imageUrl}) {
     const headingElement = isFooterSection ? 'h5' : 'h1';
     
 
   return (
     <>
-    <header className="masthead" style={{backgroundImage: "url('./src/images/bg-masthead.jpg')"}}>
+    <header className="masthead" style={{backgroundImage:  `url('${imageUrl}')`}}>
             <div className="container position-relative" >
                 <div className="row justify-content-center">
                     <div className="col-xl-6">
