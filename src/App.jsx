@@ -4,6 +4,7 @@ import Imageshowcase from './components/Imageshowcase'
 import Iconsgrid from './components/Iconsgrid'
 import Testtimonials from './components/Testtimonials'
 import Footer from './components/Footer'
+import img1 from "./images/testimonials-1.jpg"
 
 
 
@@ -55,7 +56,7 @@ function App() {
             <div className="container">
             <h2 className="mb-5">What people are saying...</h2>
                 <div className="row">
-                  <Testtimonials imageUrl="./src/images/testimonials-1.jpg" h5="Margaret E." p="This is fantastic! Thanks so much guys!" />
+                  <Testtimonials imageUrl={imgUrl}h5="Margaret E." p="This is fantastic! Thanks so much guys!" />
                   <Testtimonials imageUrl="./src/images/testimonials-2.jpg" h5="Fred S." p="Bootstrap is amazing. I've been using it to create lots of super nice landing pages." />
                   <Testtimonials imageUrl="./src/images/testimonials-3.jpg" h5="Sarah W." p="Thanks so much for making these free resources available to us!" />
                 </div>
